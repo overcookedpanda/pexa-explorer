@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Pexa Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Pexa Coin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "PEXA",
 
   // logo
   "logo": "/images/logo.png",
@@ -26,7 +26,7 @@
   //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
   //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
   // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Slate",
 
   // port to listen for requests on.
   "port" : 3001,
@@ -51,12 +51,12 @@
   "wallet": {
     "host": "localhost",
     "port": 9332,
-    "username": "darkcoinrpc",
+    "username": "pexarpc",
     "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 100,
 
   // language settings
   "locale": "locale/en.json",
@@ -64,7 +64,7 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
     "twitter": true,
     "facebook": false,
@@ -89,23 +89,23 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 100,
+    "blockhash": "00000000009c42e9d918ed2824a7348042358b96e68bba6274e6decbb206dd14",
+    "txhash": "d4a43af111c828a5185454fc04f480532040f16ff443a7e651c5c6985a435d7f",
+    "address": "XaeNWvmNGU55xNJdUogB8Cpt44rcB32R8V"
   },
 
   // market settings
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
-  "markets": {
-    "coin": "JBS",
-    "exchange": "BTC",
-    "enabled": ["bittrex"],
-    "cryptopia_id": "1658",
-    "ccex_key" : "Get-Your-Own-Key",
-    "default": "bittrex"
-  },
+  //"markets": {
+  //  "coin": "JBS",
+  //  "exchange": "BTC",
+  //  "enabled": ["bittrex"],
+  //  "cryptopia_id": "1658",
+  //  "ccex_key" : "Get-Your-Own-Key",
+  //  "default": "bittrex"
+  //},
 
   // richlist/top100 settings
   "richlist": {
@@ -124,14 +124,14 @@
   },
 
   // twitter, facebook, googleplus, youtube
-  "twitter": "iquidus",
-  "facebook": "yourfacebookpage",
-  "googleplus": "yourgooglepluspage",
-  "youtube": "youryoutubechannel",
+  "twitter": "pexacoin",
+  //"facebook": "yourfacebookpage",
+  //"googleplus": "yourgooglepluspage",
+  //"youtube": "youryoutubechannel",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "4e5951cce11bbe8d10e3f9e8b584ee2ed3c80583311e06f40d7e6146f2087f9d",
+  "genesis_block": "000000b3f4b347d4a1fb2f2a8f42d5fc33094a49858608e511c0d45f51628b85",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
